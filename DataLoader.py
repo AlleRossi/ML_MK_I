@@ -321,8 +321,8 @@ if __name__ == "__main__":
     macro_indicators = ['UNRATE', 'CPIAUCSL', 'VIXCLS']  # Unemployment, Inflation, Volatility Index
     # Fetch data for multiple stocks
     stocks = ['AAPL', 'MSFT', 'GOOGL']  # Example tickers
-    start_date = '2022-01-01'
-    end_date = '2024-12-14'
+    start_date = '2022-01-07'
+    end_date = '2025-01-7'
     fetch_and_store_data('AAPL', start_date, end_date)
     update_data('AAPL')
     query_data('AAPL', start_date='2024-11-01')

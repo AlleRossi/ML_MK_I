@@ -110,7 +110,7 @@ class StockPriceLSTM(nn.Module):
         return out
 
 input_size = 5
-hidden_size = 128
+hidden_size = 512
 output_size = 1
 num_layers = 4
 
